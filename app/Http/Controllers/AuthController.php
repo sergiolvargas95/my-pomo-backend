@@ -120,4 +120,8 @@ class AuthController extends Controller
             'message' => 'User logged out successfully'
         ]);
     }
+
+    public function getprueba() {
+        return response()->json('api');
+    }
 }
